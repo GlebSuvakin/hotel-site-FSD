@@ -1,0 +1,23 @@
+{
+  "name": "hotel-site-FSD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlebSuvakin/hotel-site-FSD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GlebSuvakin/hotel-site-FSD/issues"
+  },
+  "homepage": "https://github.com/GlebSuvakin/hotel-site-FSD#readme",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  }
+}
