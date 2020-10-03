@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+.room-prew{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    width: 270px;
+    height: 257px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    border-radius: 4px;
+    
+}
+
+.room-prew__img-block{
+    display: flex;
+    height: 55%;
+    background: url('../svg/room-prew-bg.svg');
+    background-size: cover;
+}
+
+.slider-btn{
+    width: 7.5px;
+    height: 7.5px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    filter: drop-shadow(0px 5px 5px rgba(31, 32, 65, 0.3));
+    margin-bottom: 6px;
+}
+
+.half{
+    height: 50%;
+}
+
+.room-prew__info-block{
+    display: flex;
+    height: 45%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 233px;
+}
+
+.info-block__afert{
+    display: flex;
+    align-items: center;
+    
+}
+
+.info-block__room-type{
+    padding-left: 5px;
+}
+
+.info-block__room-price{
+    padding-left: 32px;
+}
+
+.rating__reviews{
+    display: flex;
+    justify-content: space-between;
+}
+
