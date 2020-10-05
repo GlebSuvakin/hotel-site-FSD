@@ -5,60 +5,90 @@
 .room-prew{
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
     width: 270px;
     height: 257px;
+    left: 980px;
+    top: 559.5px;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
     border-radius: 4px;
-    
 }
 
-.room-prew__img-block{
+
+.room-prew__img{
     display: flex;
-    height: 55%;
-    background: url('../svg/room-prew-bg.svg');
+    justify-content: space-between;
+    height: 59%;
+    background-image: url('../svg/room-prew-bg.svg');
     background-size: cover;
 }
 
-.slider-btn{
-    width: 7.5px;
-    height: 7.5px;
-    border: 1px solid #FFFFFF;
-    border-radius: 50%;
-    filter: drop-shadow(0px 5px 5px rgba(31, 32, 65, 0.3));
-    margin-bottom: 6px;
-}
-
-.half{
-    height: 50%;
-}
-
-.room-prew__info-block{
+.arrow-btn{
     display: flex;
-    height: 45%;
+    align-items: center;
+    height: 151px;
+    width: 42px;
+    border: 0;
+}
+
+.left-side{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 99.99%, rgba(255, 255, 255, 0) 100%);
+}
+
+.right-side{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 99.99%, rgba(255, 255, 255, 0) 100%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.arrow{
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.right{
+    transform: rotate(90deg);
+}
+
+.left{
+    transform: rotate(90deg);
+}
+
+.room-prew__info{
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 41%;
+}
+
+.info__about{
+    display: flex;
+    width: 233px;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+    background-size: cover;
+}
+
+.about__type{
+    display: flex;
+    height: 33,3%;
     justify-content: space-around;
     align-items: center;
-    width: 233px;
 }
 
-.info-block__afert{
-    display: flex;
-    align-items: center;
-    
+.info__line{
+    width: 230px;
+    height: 1px;
+    background: rgba(31, 32, 65, 0.1);
 }
 
-.info-block__room-type{
-    padding-left: 5px;
-}
-
-.info-block__room-price{
-    padding-left: 32px;
-}
-
-.rating__reviews{
-    display: flex;
-    justify-content: space-between;
-}
 
