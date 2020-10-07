@@ -1,0 +1,1 @@
+{"version":3,"sources":["style\\global\\content.scss"],"names":[],"mappings":"AAAA;EACI,wDAAA;EACA,aAAA;EACA,sBAAA","file":"content.597e39e6.css","sourceRoot":"..\\src","sourcesContent":[".content{\r\n    background: url('../../svg/paige__bg/index__bg.svg');\r\n    height: 100vh;\r\n    background-size: cover;\r\n}"]}
