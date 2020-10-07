@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"C:/Users/darkg/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"C:/Users/darkg/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,23 +184,23 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/darkg/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"style/global/global.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"style/global/global.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\fonts\\quicksand\\Quicksand-Bold.eot":[["Quicksand-Bold.a42c04b2.eot","fonts/quicksand/Quicksand-Bold.eot"],"fonts/quicksand/Quicksand-Bold.eot"],"./..\\..\\fonts\\quicksand\\Quicksand-Bold.woff":[["Quicksand-Bold.b4cde6f8.woff","fonts/quicksand/Quicksand-Bold.woff"],"fonts/quicksand/Quicksand-Bold.woff"],"./..\\..\\fonts\\quicksand\\Quicksand-Bold.ttf":[["Quicksand-Bold.907517a1.ttf","fonts/quicksand/Quicksand-Bold.ttf"],"fonts/quicksand/Quicksand-Bold.ttf"],"./..\\..\\fonts\\quicksand\\Quicksand-Bold.svg":[["Quicksand-Bold.189b9a1b.svg","fonts/quicksand/Quicksand-Bold.svg"],"fonts/quicksand/Quicksand-Bold.svg"],"./..\\..\\fonts\\montserrat\\Montserrat-Regular.eot":[["Montserrat-Regular.d9e18f00.eot","fonts/montserrat/Montserrat-Regular.eot"],"fonts/montserrat/Montserrat-Regular.eot"],"./..\\..\\fonts\\montserrat\\Montserrat-Regular.woff":[["Montserrat-Regular.e1c5ee9b.woff","fonts/montserrat/Montserrat-Regular.woff"],"fonts/montserrat/Montserrat-Regular.woff"],"./..\\..\\fonts\\montserrat\\Montserrat-Regular.ttf":[["Montserrat-Regular.547ab9c2.ttf","fonts/montserrat/Montserrat-Regular.ttf"],"fonts/montserrat/Montserrat-Regular.ttf"],"./..\\..\\fonts\\montserrat\\Montserrat-Regular.svg":[["Montserrat-Regular.1ac2896d.svg","fonts/montserrat/Montserrat-Regular.svg"],"fonts/montserrat/Montserrat-Regular.svg"],"./..\\..\\fonts\\montserrat\\Montserrat-Bold.eot":[["Montserrat-Bold.5a95fb9c.eot","fonts/montserrat/Montserrat-Bold.eot"],"fonts/montserrat/Montserrat-Bold.eot"],"./..\\..\\fonts\\montserrat\\Montserrat-Bold.woff":[["Montserrat-Bold.c1f52e57.woff","fonts/montserrat/Montserrat-Bold.woff"],"fonts/montserrat/Montserrat-Bold.woff"],"./..\\..\\fonts\\montserrat\\Montserrat-Bold.ttf":[["Montserrat-Bold.a1c346b1.ttf","fonts/montserrat/Montserrat-Bold.ttf"],"fonts/montserrat/Montserrat-Bold.ttf"],"./..\\..\\fonts\\montserrat\\Montserrat-Bold.svg":[["Montserrat-Bold.750089c8.svg","fonts/montserrat/Montserrat-Bold.svg"],"fonts/montserrat/Montserrat-Bold.svg"],"./..\\..\\fonts\\material-icons\\MaterialIcons-Regular.eot":[["MaterialIcons-Regular.dc4f7fc9.eot","fonts/material-icons/MaterialIcons-Regular.eot"],"fonts/material-icons/MaterialIcons-Regular.eot"],"./..\\..\\fonts\\material-icons\\MaterialIcons-Regular.woff2":[["MaterialIcons-Regular.883c68d4.woff2","fonts/material-icons/MaterialIcons-Regular.woff2"],"fonts/material-icons/MaterialIcons-Regular.woff2"],"./..\\..\\fonts\\material-icons\\MaterialIcons-Regular.woff":[["MaterialIcons-Regular.450d5432.woff","fonts/material-icons/MaterialIcons-Regular.woff"],"fonts/material-icons/MaterialIcons-Regular.woff"],"_css_loader":"C:/Users/darkg/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"style/header/header__style.scss":[function(require,module,exports) {
+},{"./..\\..\\fonts\\quicksand\\Quicksand-Bold.eot":[["Quicksand-Bold.a42c04b2.eot","fonts/quicksand/Quicksand-Bold.eot"],"fonts/quicksand/Quicksand-Bold.eot"],"./..\\..\\fonts\\quicksand\\Quicksand-Bold.woff":[["Quicksand-Bold.b4cde6f8.woff","fonts/quicksand/Quicksand-Bold.woff"],"fonts/quicksand/Quicksand-Bold.woff"],"./..\\..\\fonts\\quicksand\\Quicksand-Bold.ttf":[["Quicksand-Bold.907517a1.ttf","fonts/quicksand/Quicksand-Bold.ttf"],"fonts/quicksand/Quicksand-Bold.ttf"],"./..\\..\\fonts\\quicksand\\Quicksand-Bold.svg":[["Quicksand-Bold.189b9a1b.svg","fonts/quicksand/Quicksand-Bold.svg"],"fonts/quicksand/Quicksand-Bold.svg"],"./..\\..\\fonts\\montserrat\\Montserrat-Regular.eot":[["Montserrat-Regular.d9e18f00.eot","fonts/montserrat/Montserrat-Regular.eot"],"fonts/montserrat/Montserrat-Regular.eot"],"./..\\..\\fonts\\montserrat\\Montserrat-Regular.woff":[["Montserrat-Regular.e1c5ee9b.woff","fonts/montserrat/Montserrat-Regular.woff"],"fonts/montserrat/Montserrat-Regular.woff"],"./..\\..\\fonts\\montserrat\\Montserrat-Regular.ttf":[["Montserrat-Regular.547ab9c2.ttf","fonts/montserrat/Montserrat-Regular.ttf"],"fonts/montserrat/Montserrat-Regular.ttf"],"./..\\..\\fonts\\montserrat\\Montserrat-Regular.svg":[["Montserrat-Regular.1ac2896d.svg","fonts/montserrat/Montserrat-Regular.svg"],"fonts/montserrat/Montserrat-Regular.svg"],"./..\\..\\fonts\\montserrat\\Montserrat-Bold.eot":[["Montserrat-Bold.5a95fb9c.eot","fonts/montserrat/Montserrat-Bold.eot"],"fonts/montserrat/Montserrat-Bold.eot"],"./..\\..\\fonts\\montserrat\\Montserrat-Bold.woff":[["Montserrat-Bold.c1f52e57.woff","fonts/montserrat/Montserrat-Bold.woff"],"fonts/montserrat/Montserrat-Bold.woff"],"./..\\..\\fonts\\montserrat\\Montserrat-Bold.ttf":[["Montserrat-Bold.a1c346b1.ttf","fonts/montserrat/Montserrat-Bold.ttf"],"fonts/montserrat/Montserrat-Bold.ttf"],"./..\\..\\fonts\\montserrat\\Montserrat-Bold.svg":[["Montserrat-Bold.750089c8.svg","fonts/montserrat/Montserrat-Bold.svg"],"fonts/montserrat/Montserrat-Bold.svg"],"./..\\..\\fonts\\material-icons\\MaterialIcons-Regular.eot":[["MaterialIcons-Regular.dc4f7fc9.eot","fonts/material-icons/MaterialIcons-Regular.eot"],"fonts/material-icons/MaterialIcons-Regular.eot"],"./..\\..\\fonts\\material-icons\\MaterialIcons-Regular.woff2":[["MaterialIcons-Regular.883c68d4.woff2","fonts/material-icons/MaterialIcons-Regular.woff2"],"fonts/material-icons/MaterialIcons-Regular.woff2"],"./..\\..\\fonts\\material-icons\\MaterialIcons-Regular.woff":[["MaterialIcons-Regular.450d5432.woff","fonts/material-icons/MaterialIcons-Regular.woff"],"fonts/material-icons/MaterialIcons-Regular.woff"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"style/header/header__style.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"C:/Users/darkg/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/header.js":[function(require,module,exports) {
+},{"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"js/header.js":[function(require,module,exports) {
 "use strict";
 
 require("../style/global/global.scss");
 
 require("../style/header/header__style.scss");
-},{"../style/global/global.scss":"style/global/global.scss","../style/header/header__style.scss":"style/header/header__style.scss"}],"C:/Users/darkg/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../style/global/global.scss":"style/global/global.scss","../style/header/header__style.scss":"style/header/header__style.scss"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -228,7 +228,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "5451" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "3012" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -404,5 +404,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["C:/Users/darkg/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/header.js"], null)
+},{}]},{},["../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/header.js"], null)
 //# sourceMappingURL=/header.4485232e.js.map

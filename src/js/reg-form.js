@@ -1,0 +1,1 @@
+import '../style/reg-form/reg-form__style.scss';

@@ -25,6 +25,8 @@ $reg-btn-hvr: #8BA4F9;
 	align-items: center;
 }
 .nav-group__btn-group {
+	display: flex;
+	justify-content: space-around;
 	margin-right: 20px;
 }
 ul {
@@ -69,6 +71,8 @@ ul {
 }
 .log-in {
 	width: 87px;
+	margin-left: 20px;
+	margin-right: 20px;
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: bold;
