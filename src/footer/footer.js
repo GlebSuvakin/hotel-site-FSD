@@ -1,0 +1,1 @@
+import "../style/footer/footer__style.scss";

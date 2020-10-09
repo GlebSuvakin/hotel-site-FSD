@@ -32,6 +32,27 @@
   /* For IE6-8 */
   src: local("Material Icons"), local("MaterialIcons-Regular"), url("/MaterialIcons-Regular.883c68d4.woff2") format("woff2"), url("/MaterialIcons-Regular.450d5432.woff") format("woff");
 }
+@font-face {
+  font-family: "Font Awesome 5 Free-Regular-400";
+  src: url("/Font Awesome 5 Free-Regular-400.b8b917b4.eot");
+  src: url("/Font Awesome 5 Free-Regular-400.339af471.woff") format("woff"), url("/Font Awesome 5 Free-Regular-400.70133142.ttf") format("truetype"), url("/Font Awesome 5 Free-Regular-400.c451d5aa.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Font Awesome 5 Brands-Regular-400";
+  src: url("/Font Awesome 5 Brands-Regular-400.ec43d232.eot");
+  src: url("/Font Awesome 5 Brands-Regular-400.3ade1fdb.woff") format("woff"), url("/Font Awesome 5 Brands-Regular-400.263b8356.ttf") format("truetype"), url("/Font Awesome 5 Brands-Regular-400.4fd2ce97.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Conv_Font Awesome 5 Free-Solid-900";
+  src: url("/Font Awesome 5 Free-Solid-900.b6dec391.eot");
+  src: url("/Font Awesome 5 Free-Solid-900.97aa0129.woff") format("woff"), url("/Font Awesome 5 Free-Solid-900.54949410.ttf") format("truetype"), url("/Font Awesome 5 Free-Solid-900.dcc069b5.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 .material-icons {
   font-family: "Material Icons";
   font-weight: normal;
@@ -78,7 +99,7 @@
   margin-right: 20px;
 }
 
-ul li {
+.nav-group__links .nav-group__li {
   display: inline;
 }
 

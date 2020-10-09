@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.pug --open",
+    "color-page": "parcel src/color-type-page/color-type-page.pug --open",
     "build": "parcel build src/index.pug -d docs --public-url ./"
   },
   "repository": {
@@ -22,5 +23,8 @@
   "devDependencies": {
     "pug": "^3.0.0",
     "sass": "^1.26.12"
+  },
+  "dependencies": {
+    "air-datepicker": "^2.2.3"
   }
 }
