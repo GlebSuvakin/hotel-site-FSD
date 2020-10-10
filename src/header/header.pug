@@ -1,23 +1,24 @@
 header.header
   .header__logo-group
-    img.logo-group__circle(src='./logo-group/circle.svg', alt='Toxin logo')
-    img.logo-group__TOXIN(src='./logo-group/TOXIN.svg', alt='Toxin')
-  .header__nav-group
-    ul.header__links
-      li.header__li
-        a.header__link(href='#') О нас
-      li.header__li
-        a.header__link(href='#')
-          | Услуги
-          span.arrow-down expand_more
-      li.header__li
-        a.header__link(href='#') Вакансии
-      li.header__li
-        a.header__link(href='#') Новости
-      li.header__li
-        a.header__link(href='#')
-          | Соглашения
-          span.arrow-down expand_more
-    .nav-group__btn-group
-      button.nav-group__btn.log-in войти
-      button.nav-group__btn.reg зарегистрироваться
+    img.logo-vector(src="./header/__logo-group/circle.svg", alt="Toxin vector logo")
+    img.logo-text(src="./header/__logo-group/TOXIN.svg", alt="Toxin word logo")
+  
+  ul.header__nav-group
+    li.nav-group__link
+      a.header__nav-link(href="#") О нас
+    li.nav-group__link
+      a.header__nav-link(href="#") Услуги
+      span.arrow-down expand_more
+    li.nav-group__link
+      a.header__nav-link(href="#") Вакансии
+    li.nav-group__link
+      a.header__nav-link(href="#") Новости
+    li.nav-group__link
+      a.header__nav-link(href="#") Соглашения
+      span.arrow-down expand_more
+
+  ul.header__btn-group
+    button.header__btn.log-in войти
+    button.header__btn.reg зарегистрироваться
+
+

@@ -1,0 +1,30 @@
+.header__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    border-radius: 22px;
+    margin-left: 20px;
+}
+
+.log-in{
+    width: 87px;
+    font-family: 'Montserrat-Bold';
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #BC9CFF;
+    background: white;
+    border: 2px solid #BC9CFF;
+}
+
+.reg{
+    width: 196px;
+    font-family: 'Montserrat-Bold';
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border: 2px solid #8BA4F9;
+}
