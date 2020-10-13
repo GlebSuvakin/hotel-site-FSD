@@ -3,6 +3,7 @@ import './header.scss';
 import './__logo-group/header__logo-group.scss';
 
 import './__nav-group/header__nav-group.scss';
+import './__nav-group/__link-list/nav-group__link-list.scss';
 
 import './__nav-link/header__nav-link.scss';
 
